@@ -10,7 +10,7 @@ export default function Picture(props) {
       <h1>{picture.name}</h1>
       <img src={picture.image} alt={picture.name}></img>
       <div>{picture.info}</div>
-      <div>{picture.price}</div>
+      {/* <div>{picture.price}</div> */}
       <Link to={`/picture/${picture._id}/edit`}><button>EDIT</button></Link>
     </div>
   );
