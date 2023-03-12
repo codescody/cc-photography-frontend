@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Gallery(props) {
     const loaded = () => {
         return props.picture.map((pictureItem) => (
-            <div className="inline-flex m-5" key={pictureItem._id}>
+            <div className="inline-flex mx-3" key={pictureItem._id}>
                 <div>
                 <Link to={`/picture/${pictureItem?._id}`}>
                     <h1>{pictureItem.name}</h1>
@@ -25,7 +25,7 @@ export default function Gallery(props) {
     }
 
     return (
-        <div>  
+        <div className="mx-3">  
             {props.picture ? loaded() : loading()}
         </div>
     )
