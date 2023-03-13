@@ -28,12 +28,12 @@ export default function Edit(props) {
   };
 
   return (
-    <div>
+    <div className="flex justify-center text-center h-screen mt-40">
       <form onSubmit={handleSubmit}>
-        <p>Edit picture</p>
+        <p className="font-semibold">Edit Picture</p>
         <div>
-          <div>Name:</div>
-          <input
+          <div className="font-semibold">Name:</div>
+          <input class="shadow appearance-none border border-blue-500 rounded py-2 px-3 text-gray-700 mb-3  w-40"
             type="text"
             value={editForm.name}
             name="name"
@@ -42,8 +42,8 @@ export default function Edit(props) {
           />
         </div>
         <div>
-          <div>Image:</div>
-          <input
+          <div className="font-semibold">Image:</div>
+          <input class="shadow appearance-none border border-blue-500 rounded py-2 px-3 text-gray-700 mb-3 w-40"
             type="text"
             value={editForm.image}
             name="image"
@@ -52,8 +52,8 @@ export default function Edit(props) {
           />
         </div>
         <div>
-          <div>Information:</div>
-          <input
+          <div className="font-semibold">Information:</div>
+          <input class="shadow appearance-none border border-blue-500 rounded py-2 px-3 text-gray-700 mb-3 w-40"
             type="text"
             value={editForm.info}
             name="info"
@@ -62,8 +62,8 @@ export default function Edit(props) {
           />
         </div>
         <div>
-          <div>Price:</div>
-          <input
+          <div className="font-semibold">Price:</div>
+          <input class="shadow appearance-none border border-blue-500 rounded py-2 px-3 text-gray-700 mb-3 w-40"
             type="number"
             value={editForm.price}
             name="price"
@@ -72,9 +72,9 @@ export default function Edit(props) {
           />
         </div>
         <div>
-          <input type="submit" value="Update" />
+          <input class="shadow appearance-none border border-blue-500 rounded py-2 px-3 text-gray-700 mb-3 w-40" type="submit" value="Update" />
         </div>
-        <button onClick={() => removePicture(picture._id)}>Delete</button>
+        <button class="shadow appearance-none border border-blue-500 rounded py-2 px-3 text-gray-700 mb-3 w-40" onClick={() => removePicture(picture._id)}>Delete</button>
       </form>
     </div>
   );
