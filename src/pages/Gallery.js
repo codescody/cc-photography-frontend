@@ -4,15 +4,15 @@ import { Link } from 'react-router-dom'
 export default function Gallery(props) {
     const loaded = () => {
         return props.picture.map((pictureItem) => (
-            <div className="inline-flex mx-3" key={pictureItem._id}>
+            <div className="inline-flex mx-1" key={pictureItem._id}>
                 <div>
-                <Link to={`/picture/${pictureItem?._id}`}>
+                {/* <Link to={`/picture/${pictureItem?._id}`}>
                     <h1>{pictureItem.name}</h1>
-                </Link>
+                </Link> */}
                 <Link to={`/picture/${pictureItem?._id}`}>
-                    <img className="flex w-80 max-h-fit" src={pictureItem.image} alt={pictureItem.name} />
+                    <img className="flex max-h-96" src={pictureItem.image} alt={pictureItem.name} />
                 </Link>
-                <h3>{pictureItem.info}</h3>
+                {/* <h3>{pictureItem.info}</h3> */}
                 {/* <h3>{pictureItem.price}</h3> */}
                 </div>
             </div>
