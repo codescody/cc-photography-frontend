@@ -10,7 +10,7 @@ export default function Gallery(props) {
                     <h1>{pictureItem.name}</h1>
                 </Link>
                 <Link to={`/picture/${pictureItem?._id}`}>
-                    <img className="flex w-80 m-h-5" src={pictureItem.image} alt={pictureItem.name} />
+                    <img className="flex w-80 max-h-fit" src={pictureItem.image} alt={pictureItem.name} />
                 </Link>
                 <h3>{pictureItem.info}</h3>
                 {/* <h3>{pictureItem.price}</h3> */}
