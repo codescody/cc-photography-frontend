@@ -7,6 +7,7 @@ import Gallery from "../pages/Gallery";
 import Picture from "../pages/Picture";
 import New from "../pages/New";
 import Edit from "../pages/Edit";
+import Contact from "../pages/Contact";
 
 export default function Main(props) {
   const URL = "http://127.0.0.1:4000/picture/";
@@ -58,6 +59,7 @@ export default function Main(props) {
       <Routes>
         <Route exact path="/" element={<Home picture={picture} />} />
         <Route exact path="/about" element={<About />} />
+        <Route exact path="/contact" element={<Contact />} />
         <Route exact path="/picture" element={<Gallery picture={picture}/>} />
         <Route path="/picture/:id" element={<Picture picture={picture} />} />
         <Route
