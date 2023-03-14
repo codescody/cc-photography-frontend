@@ -2,6 +2,8 @@
 
 ## Link to Live Site
 
+https://cc-photography.netlify.app/
+
 ## Information
 
 Welcome to Cody Clark Photography - This site is meant to be a showcase of freelance and professional photography projects. Over the last decade I have been a concert, media, wedding, portrait, and landscape photographer and wanted to create a gallery with favorites. This was a great opportunity to create a fullstack application with meaning for me. I will be continuously developing this application with new technologies and pictures as my collection of stills and creativity grows.
