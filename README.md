@@ -10,6 +10,8 @@ Welcome to Cody Clark Photography - This site is meant to be a showcase of freel
 
 ## Wireframes
 
+![](public/images/Screen%20Shot%202023-03-13%20at%202.36.29%20PM.png)
+
 ## Relationship Diagram
 
 ## Screenshots
