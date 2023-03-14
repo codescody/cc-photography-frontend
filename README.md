@@ -56,6 +56,6 @@ Tailwind CSS
 
 The goal of this project was to introduce a new technology to my stack so that I could keep learning and progressing as a developer and maintain a personal project. The technology I chose was Tailwind CSS. Tailwind interested me for a long time its simplicity and efficiency come with the minor downside of an initial installation process and learning additional syntax. The trickiest part was referencing Tailwind CSS keyword to ensure I was styling everything accordingly. After a few days the main styles start to become secondhand and then its about referencing which other styles for specific details needed. Tailwind is something I will include in various projects to come.
 
-## Next Steps
+## Future Steps
 
 This gallery website will progress into a store to sell photography prints of the stills I have captured. I will continue to optimize the site with mobile queries, css polishing and stripe/square integration.

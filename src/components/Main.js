@@ -10,7 +10,7 @@ import Edit from "../pages/Edit";
 import Contact from "../pages/Contact";
 
 export default function Main(props) {
-  const URL = "http://127.0.0.1:4000/picture/";
+  const URL = "cc-photography-backend.herokuapp.com/";
 
   const [picture, setPicture] = useState([]);
 
