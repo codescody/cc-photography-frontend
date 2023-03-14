@@ -12,6 +12,14 @@ Welcome to Cody Clark Photography - This site is meant to be a showcase of freel
 
 ## Screenshots
 
+![](public/images/Screen%20Shot%202023-03-13%20at%202.04.46%20PM.png)
+
+![](public/images/Screen%20Shot%202023-03-13%20at%202.04.56%20PM.png)
+
+![](public/images/Screen%20Shot%202023-03-13%20at%202.05.16%20PM.png)
+
+![](public/images/Screen%20Shot%202023-03-13%20at%202.05.25%20PM.png)
+
 ![](public/images/Screen%20Shot%202023-03-13%20at%202.06.01%20PM.png)
 
 ![](public/images/Screen%20Shot%202023-03-13%20at%202.05.49%20PM.png)
